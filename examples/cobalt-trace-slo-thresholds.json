@@ -1,0 +1,17 @@
+{
+  "repo": "cobalt-trace-slo-dock",
+  "thresholds": {
+    "signal": 4,
+    "slack": 2,
+    "confidence": 2,
+    "drag": 4,
+    "ship": 154,
+    "watch": 118
+  },
+  "terms": [
+    "span volume",
+    "latency skew",
+    "signal loss",
+    "incident shape"
+  ]
+}
