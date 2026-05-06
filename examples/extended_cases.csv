@@ -1,0 +1,7 @@
+name,demand,capacity,latency,risk,weight,score,decision,reason
+baseline,60,85,19,15,6,98,review,observability baseline scenario exercises the review path for bounded failure handling
+pressure,79,73,29,18,8,95,review,observability pressure scenario exercises the review path for bounded failure handling
+surge,100,97,24,13,11,224,accept,observability surge scenario keeps the local fixture within the modeled acceptance band
+degraded,69,55,37,25,8,-8,review,observability degraded scenario exercises the review path for bounded failure handling
+recovery,88,103,18,14,12,217,accept,observability recovery scenario keeps the local fixture within the modeled acceptance band
+boundary,71,83,20,15,8,128,review,observability boundary scenario exercises the review path for bounded failure handling
